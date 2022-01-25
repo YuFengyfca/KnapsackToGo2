@@ -1,0 +1,6 @@
+name: KTG2_PlayerGamemode
+main: cn.jji8.KnapsackToGo2.spigot.KTG2_PlayerGamemode.KTG2_PlayerGamemode
+version: 0.1
+author: jianjianai
+api-version: 1.13
+depend: [KnapsackToGo]
