@@ -1,0 +1,7 @@
+name: KTG2_MapDataSynchronization
+main: cn.jji8.KTG2_MapDataSynchronization.KTG2_MapDataSynchronization
+version: 0.01
+author: jianjianai
+api-version: 1.13
+depend: [KnapsackToGo]
+softdepend: [patronSaint]

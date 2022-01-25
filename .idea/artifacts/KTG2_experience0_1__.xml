@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="KTG2_experience0.1[测试]">
+    <output-path>$PROJECT_DIR$/.jar/plug</output-path>
+    <root id="archive" name="KTG2_experience0.1[测试].jar">
+      <element id="module-output" name="KTG2_experience" />
+    </root>
+  </artifact>
+</component>

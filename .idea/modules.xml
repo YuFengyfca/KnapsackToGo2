@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DataMinger/FileAdta/FileAdta.iml" filepath="$PROJECT_DIR$/DataMinger/FileAdta/FileAdta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plug/KTG2_PlayerGamemode/KTG2_PlayerGamemode.iml" filepath="$PROJECT_DIR$/plug/KTG2_PlayerGamemode/KTG2_PlayerGamemode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plug/KTG2_PlayerPosition/KTG2_PlayerPosition.iml" filepath="$PROJECT_DIR$/plug/KTG2_PlayerPosition/KTG2_PlayerPosition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plug/KTG2_experience/KTG2_experience.iml" filepath="$PROJECT_DIR$/plug/KTG2_experience/KTG2_experience.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataMinger/MysqData/MysqData.iml" filepath="$PROJECT_DIR$/DataMinger/MysqData/MysqData.iml" />
+      <module fileurl="file://$PROJECT_DIR$/[跨服背包同步2]KnapsackToGo2.iml" filepath="$PROJECT_DIR$/[跨服背包同步2]KnapsackToGo2.iml" />
+    </modules>
+  </component>
+</project>
