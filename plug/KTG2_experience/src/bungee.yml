@@ -1,6 +1,0 @@
-name: KTG2_experience
-main: cn.jji8.KnapsackToGo2.KTG2_experience.bungeeCord.KTG2_experience
-version: 0.1
-author: jianjianai
-api-version: 1.13
-depend: [KnapsackToGo]

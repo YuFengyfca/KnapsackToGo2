@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="[跨服背包同步2]KnapsackToGo2022.1.25">
-    <output-path>$PROJECT_DIR$/.jar/KnapsackToGo2</output-path>
-    <root id="archive" name="[跨服背包同步2]KnapsackToGo2022.1.25.jar">
-      <element id="module-output" name="[跨服背包同步2]KnapsackToGo2" />
-    </root>
-  </artifact>
-</component>

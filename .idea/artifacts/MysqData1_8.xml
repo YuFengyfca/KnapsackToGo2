@@ -1,9 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="MysqData1.8">
-    <output-path>$PROJECT_DIR$/resources/AdtaManager</output-path>
-    <root id="archive" name="MysqData1.8.jar">
-      <element id="module-output" name="MysqData" />
-      <element id="file-copy" path="$PROJECT_DIR$/../../java开发项目/MysqlSimpleUse1.18.jar" />
-    </root>
-  </artifact>
-</component>

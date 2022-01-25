@@ -1,6 +1,0 @@
-name: KnapsackToGo
-main: cn.jji8.KnapsackToGo2.spigot.KnapsackToGo2Spigot
-version: 2022.1.25
-author: jianjianai
-api-version: 1.13
-softdepend: [patronSaint]
