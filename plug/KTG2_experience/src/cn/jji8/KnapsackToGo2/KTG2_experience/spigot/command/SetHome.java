@@ -28,13 +28,13 @@ public class SetHome implements Interactive.CommandReceiver{
                 player.sendRawMessage("解析SetHome参数时发送错误,请联系管理员！");
             }
             Location playerLocation = player.getLocation();
-            String wordName = playerLocation.getWorld().getName();
+            String wordName = playerLocation.getWorld().getUID().toString();
             double x = playerLocation.getX();
             double y = playerLocation.getY();
             double z = playerLocation.getZ();
             double p = playerLocation.getYaw();
             double q = playerLocation.getPitch();
-            String playerHomeAllStringData = SpigotData.get(player.getName(),FieldMame.Home_Data_Name);
+            String playerHomeAllStringData = SpigotData.get(player.getUniqueId().toString(),FieldMame.Home_Data_Name);
             HomeAllData homeAllData = new HomeAllData(playerHomeAllStringData);
             homeAllData.putHome(data[1],new HomeAllData.HomeData(data[0],wordName,x,y,z,p,q));
             String newAllHomeStringData = homeAllData.toString();

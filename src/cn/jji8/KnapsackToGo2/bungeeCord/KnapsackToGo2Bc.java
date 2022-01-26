@@ -67,7 +67,7 @@ public class KnapsackToGo2Bc extends Plugin implements Listener {
     @EventHandler
     public void onPostLogin(PostLoginEvent event) {//玩家连接代理时
         //为玩家解锁
-        BungeeCordData.set(event.getPlayer().getName(),"lock","false");
+        BungeeCordData.set(event.getPlayer().getUniqueId().toString(),"lock","false");
     }
     @EventHandler
     public void onPostLogin(PlayerDisconnectEvent event) {//玩家离开代理时

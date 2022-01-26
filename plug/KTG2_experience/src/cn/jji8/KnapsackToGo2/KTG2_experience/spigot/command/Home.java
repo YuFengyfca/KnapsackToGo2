@@ -28,7 +28,7 @@ public class Home implements Interactive.CommandReceiver {
             for (String datum : data) {
                 System.out.println(datum);
             }
-            String homeData = SpigotData.get(player.getName(),FieldMame.Home_Data_Name);
+            String homeData = SpigotData.get(player.getUniqueId().toString(),FieldMame.Home_Data_Name);
             HomeAllData homeAllData = new HomeAllData(homeData);
             if(data.length!=1){
                 return;

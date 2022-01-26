@@ -26,7 +26,7 @@ public class Home extends Command{
             return;
         }
         ProxiedPlayer player = (ProxiedPlayer) commandSender;
-        String HomeDataString = BungeeCordData.get(commandSender.getName(), FieldMame.Home_Data_Name);
+        String HomeDataString = BungeeCordData.get(player.getUniqueId().toString(), FieldMame.Home_Data_Name);
         String homeName;
         if(strings.length<1){
             homeName = FieldMame.Player_Default_Home_Name;

@@ -7,7 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="[跨服背包同步2]KnapsackToGo2" />
+    <orderEntry type="module" module-name="KnapsackToGo2" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
@@ -21,5 +21,6 @@
         <jarDirectory url="file://$MODULE_DIR$/../../../lib依赖库" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="BungeeCord" level="project" />
   </component>
 </module>

@@ -7,6 +7,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="[跨服背包同步2]KnapsackToGo2" />
+    <orderEntry type="module" module-name="KnapsackToGo2" />
   </component>
 </module>

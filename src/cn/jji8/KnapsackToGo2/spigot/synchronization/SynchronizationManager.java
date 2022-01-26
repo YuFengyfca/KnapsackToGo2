@@ -43,7 +43,7 @@ public class SynchronizationManager implements Listener,Runnable{
         for(Synchronization synchronization:synchronizationList){
             tipsMainger.setNews(",加载"+synchronization.getName());
             try {
-                synchronization.loadData(player,SpigotData.get(player.getName(),synchronization.getName()));
+                synchronization.loadData(player,SpigotData.get(player.getUniqueId().toString(),synchronization.getName()));
             }catch (Throwable e){
                 e.printStackTrace();
                 KnapsackToGo2Spigot.KnapsackToGo2Spigot.getLogger().warning("为玩家"+player.getName()+"加载数据"+synchronization.getName()+"时发生错误。");
@@ -56,7 +56,7 @@ public class SynchronizationManager implements Listener,Runnable{
     public static void saveData(Player player){
         for(Synchronization synchronization:synchronizationList){
             try {
-                SpigotData.set(player.getName(),synchronization.getName(),synchronization.saveData(player));
+                SpigotData.set(player.getUniqueId().toString(),synchronization.getName(),synchronization.saveData(player));
             }catch (Throwable e){
                 e.printStackTrace();
                 KnapsackToGo2Spigot.KnapsackToGo2Spigot.getLogger().warning("为玩家"+player.getName()+"保存数据"+synchronization.getName()+"时发生错误。");
@@ -69,7 +69,7 @@ public class SynchronizationManager implements Listener,Runnable{
     static void waitFor(Player player){
         try{Thread.sleep(500);}catch(InterruptedException ignored){}
         for (int i=0;i<=waitingTime;i++){
-            String lock = SpigotData.get(player.getName(),"lock");
+            String lock = SpigotData.get(player.getUniqueId().toString(),"lock");
             if(!"true".equals(lock)){
                 break;
             }
@@ -80,13 +80,13 @@ public class SynchronizationManager implements Listener,Runnable{
      * 给玩家上锁
      * */
     public static void lock(Player player){
-        SpigotData.set(player.getName(),"lock","true");
+        SpigotData.set(player.getUniqueId().toString(),"lock","true");
     }
     /**
      * 解锁，玩家退出服务器保存完数据后解锁
      * */
     public static void unlocking(Player player){
-        SpigotData.set(player.getName(),"lock","false");
+        SpigotData.set(player.getUniqueId().toString(),"lock","false");
     }
     ////////////////////////////////////////////////////
     //下面全是实例方法和字段
