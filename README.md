@@ -1,4 +1,4 @@
-# 中文(chinese)
+# 中文(Chinese)
 这里是中文的插件介绍。
 
 Here is the introduction of Chinese plug-ins.
